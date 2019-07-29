@@ -12,13 +12,13 @@ buildscript {
     }
 }
 
-mainClassName = "io.pivotal.pal.tracker.PalTrackerApplication"
 
 plugins {
     id "java"
 }
 
 apply plugin: 'org.springframework.boot'
+
 
 repositories {
     mavenCentral()
