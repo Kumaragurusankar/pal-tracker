@@ -12,6 +12,7 @@ buildscript {
     }
 }
 
+mainClassName = "io.pivotal.pal.tracker.PalTrackerApplication"
 
 plugins {
     id "java"
