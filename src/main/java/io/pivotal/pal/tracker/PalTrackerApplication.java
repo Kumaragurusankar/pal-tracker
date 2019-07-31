@@ -2,6 +2,7 @@ package io.pivotal.pal.tracker;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.actuate.info.InfoContributor;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
@@ -37,5 +38,6 @@ public class PalTrackerApplication {
     public WelcomeController welcomeController(){
         return new WelcomeController(message);
     }
+
 
 }
